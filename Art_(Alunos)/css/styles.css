@@ -85,7 +85,7 @@ a, i {
 /* Galeria */
 
 #img-2{
-    background-image: url('../img/img.webp');
+    background-image: url('../img/Alvindancando.webp');
 }
 
 #img-3 {
@@ -93,16 +93,18 @@ a, i {
 }
 
 #img-4 {
-    background-image: url('../img/g_4.jpg');
+    background-image: url('../img/alvincerveja.webp');
 }
 
 #img-5 {
-    background-image: url('../img/g_5.jpg');
+    background-image: url('../img/AlvinMOTO.webp');
 }
 
 #img-6 {
-    background-image: url('../img/g_6.jpg');
+    background-image: url('../img/AlvinVOODO.webp');
 }
+
+
 
 #gallery-container h1 {
     text-align: center;
