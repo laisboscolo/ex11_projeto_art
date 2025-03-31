@@ -1,4 +1,5 @@
-/* Estilos Gerais */
+
+
 * {
  color: #25282e;
 }
@@ -30,6 +31,29 @@ a, i {
     color: #FFF;
 }
 
+
+#quadroDetalhes-2,
+#quadroDetalhes-3,
+#quadroDetalhes-4,
+#quadroDetalhes-5,
+#quadroDetalhes-6,
+#quadroDetalhes-7 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: none; /* O quadro começa escondido */
+  }
+  
+  /* Classe que será adicionada para mostrar o quadro */
+  #quadroDetalhes.mostrar {
+    display: block;
+  }
+  
+  .escondido {
+    display: none;
+  }
+  
 /* Header */
 #header {
     text-align:center;
@@ -63,7 +87,7 @@ a, i {
 }
 
 #navbar a:hover {
-    color: #c1b696;
+    color: #fefefe;
 }
 
 /* Main Image */
@@ -150,5 +174,5 @@ footer p{
 }
 
 a:hover i{
-    color: #c1b696;
+    color: #ffffff;
 }
